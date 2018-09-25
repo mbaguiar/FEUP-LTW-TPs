@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="save.php" method="get">
+            <label>Name:
+                <input type="text" name="name">
+            </label>
+            <br>
+            <fieldset>
+                <legend>Age:</legend>
+                <label> 
+                    <input type="radio" name="age" value="-18"> &lt;18
+                </label>
+                <label>
+                    <input type="radio" name="age" value="19-35"> 19-35 
+                </label>
+                <label>
+                    <input type="radio" name="age" value="36-48"> 36-48 
+                </label>
+                <label> 
+                    <input type="radio" name="age" value="49+"> 49&gt; 
+                </label>
+            </fieldset>
+            <label>
+                Profession:
+                <input type="text" name="profession">
+            </label>
+            <br>
+            <label>Country:
+                <select name="country">
+                    <option value="england">England</option>
+                    <option value="france">France</option>
+                    <option value="italy">Italy</option>
+                    <option value="portugal">Portugal</option>
+                </select>
+                <br>     
+            </label>
+            <fieldset>
+                <legend>Interests:</legend>
+                <label>
+                    <input type="checkbox" name="interest" value="travel"> Travel
+                </label>
+                <label>
+                    <input type="checkbox" name="interest" value="music"> Music
+                </label>
+                <label>
+                    <input type="checkbox" name="interest" value="books"> Books
+                </label>
+                <label>
+                    <input type="checkbox" name="interest" value="dance"> Dance
+                </label>
+            </fieldset>
+            <label>How did you find out about this site?
+                <textarea name="about" cols="30" rows="10"></textarea>
+            </label>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
