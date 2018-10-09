@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-body > header {
+body>header {
     background-color: #046DD5;
     color: white;
     font-family: 'Verdana', sans-serif;
@@ -8,7 +8,7 @@ body > header {
     padding: 1em;
 }
 
-body > header a {
+body>header a {
     color: white;
     text-decoration: none;
 }
@@ -19,24 +19,24 @@ body > header a {
     border-right: 1px solid white;
 }
 
-body > header > * {
+body>header>* {
     margin: 0.1em;
     padding: 0.1em;
 }
 
-body > header > h1 {
+body>header>h1 {
     font-size: 28px;
 }
 
-body > header > h2 {
+body>header>h2 {
     font-size: 15px;
 }
 
-body > header > div {
+body>header>div {
     font-size: 13px;
 }
 
-#menu > ul {
+#menu>ul {
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -48,7 +48,15 @@ body > header > div {
     display: none;
 }
 
-#menu li > a {
+#menu {
+    background-color: white;
+}
+
+#news>article {
+    background-color: white;
+}
+
+#menu li>a {
     text-decoration: none;
     color: black;
     font-family: 'Verdana', sans-serif;
@@ -92,7 +100,7 @@ body > header > div {
     background-color: #2A2F33;
 }
 
-#related h1 > a {
+#related h1>a {
     text-decoration: none;
     color: white;
     font-family: 'Verdana', sans-serif;
@@ -104,33 +112,33 @@ body > header > div {
     font-size: 18px;
 }
 
-#news > article > img {
+#news>article>img {
     width: 100%;
 }
 
-#news > article {
+#news>article {
     position: relative;
     margin: 1em 0;
 }
 
-#news > article > header {
+#news>article>header {
     position: absolute;
     padding: 1em;
     width: 15%;
     margin: 1em;
 }
 
-#news > article p {
+#news>article p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     margin: 1em;
 }
 
-#news > article p:nth-child(3)::first-letter {
+#news>article p:nth-child(3)::first-letter {
     font-size: 30px;
 }
 
-#news > article > footer {
+#news>article>footer {
     background-color: #F4655F;
     padding: 1em;
 }
@@ -143,13 +151,13 @@ body > header > div {
     text-shadow: 5px 5px 6px black;
 }
 
-body > footer {
+body>footer {
     background-color: #2A2F33;
     padding: 0.5em;
     color: white;
 }
 
-#news footer > span {
+#news footer>span {
     color: white;
     font-size: 13px;
     font-family: 'Verdana', sans-serif;
@@ -167,7 +175,6 @@ body > footer {
     padding: 1em;
 }
 
-#news footer > a::after {
+#news footer>a::after {
     content: " comments";
 }
-
